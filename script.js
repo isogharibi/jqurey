@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    $('#hide').click(function(){
+        $("p").hide(500);
+    });
+    $('#show').click(function(){
+        $("p").show(500);
+    });
+});
+$(document).ready(function(){
+    $('#hide-img').click(function(){
+        $("img").hide(500);
+    });
+    $('#show-img').click(function(){
+        $("img").show(500)
+    })
+});
